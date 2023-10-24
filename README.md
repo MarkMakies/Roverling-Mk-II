@@ -14,15 +14,15 @@ Follow #Roverling on Instagram for project progress.   All design files, schemat
 
 ![rv2b](https://github.com/MarkMakies/Roverling-Mk-II/assets/105891859/7dcae563-0723-4818-ae79-13c0630627ed)
 
-### Stage 3 - MPU code development and electronics complete Oct 2023
+### Stage 2 - MPU code development and electronics complete Oct 2023
 
 ![IMG_1045](https://github.com/MarkMakies/Roverling-Mk-II/assets/105891859/53bcc2d5-a095-483d-891b-787f3cfac39f)
 
-### Stage 4 - GUI complete as well as LoRa /WiFi /MQTT gateway.  
+### Stage 3 - GUI complete as well as LoRa /WiFi /MQTT gateway.  
 
 ![Screenshot_2023-10-24_15-35-30](https://github.com/MarkMakies/Roverling-Mk-II/assets/105891859/2d0717cf-a4fb-4b08-a163-27af71d6e3ab)
 
-## And now stage 5 - writing it all up so others can understand and follow
+## And now, Oct 2023,  writing it all up so others can understand and follow I hope :) 
 
 in progress.....
 
