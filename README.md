@@ -59,3 +59,9 @@ This is a current work in progress.  At some stage I needed to draw the line and
      - Mapping module runs on desktop from MQTT feed to produce realtime tracking info overlaid on an image (for me an old NearMap screenshot).
       On board RPi 4B w/ 4G running the latest OS with a camera 3 module.  
 
+All the 3D design is done in FreeCAD and all the slicing and printing on a Prusa platform.  As well as the actual design files, I’ve also made available stl model files, g-code files and Prusa project files for all parts.
+
+The schematic is done with KiCAD.  I used mixed prototyping methods and no PCB has been designed (yet) so you will need a fair understanding of how to layout and wire correctly.
+
+All the code is in python.  I’ve pretty much written my own drivers for all of the low level stuff except the sx1262 suite for LoRa and MQTT.  I’ve tried to document as much as possible.  
+
