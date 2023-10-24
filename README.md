@@ -18,7 +18,12 @@ Follow #roverling on Instagram for project progress
 
 ![IMG_1045](https://github.com/MarkMakies/Roverling-Mk-II/assets/105891859/53bcc2d5-a095-483d-891b-787f3cfac39f)
 
-### Stage 4 - GUI and LoRa MQTT gateway complete.  Roverling on the move
+### Stage 4 - GUI complete as well as LoRa /WiFi /MQTT gateway.  
 
-https://youtu.be/dA9vUYoznVs 
+![Screenshot_2023-10-24_15-35-30](https://github.com/MarkMakies/Roverling-Mk-II/assets/105891859/2d0717cf-a4fb-4b08-a163-27af71d6e3ab)
+
+## An now stage 5 - writing it all up so others can understand and follow
+
+in progress.....
+
 
