@@ -20,6 +20,5 @@ Follow #roverling on Instagram for project progress
 
 ### Stage 4 - GUI and LoRa MQTT gateway complete.  Roverling on the move
 
-https://www.youtube.com/watch?v=dA9vUYoznVs
-
+https://youtu.be/dA9vUYoznVs 
 
