@@ -1,6 +1,6 @@
 Which code goes into which MPU...
 
-## Motion Processor Processor  
+## Motion Processor
 ###### (MicroPython v1.20.0 on 2023-04-26; Raspberry Pi Pico with RP2040)
 
 Works independently of other modules.  Can use RC to control without any other modules.
@@ -56,3 +56,5 @@ flashes blue when commands are received.  A sigle message is delivered twice a s
 	
 	MPU/lib/umqttsimple.py		MQTT module from https://pypi.org/project/micropython-umqtt.simple/#files
 
+## Block Diagram 
+![IMG_1053](https://github.com/MarkMakies/Roverling-Mk-II/assets/105891859/a91765d6-3098-419c-a1a8-6e6866dd5ce8)
