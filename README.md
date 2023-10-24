@@ -22,7 +22,7 @@ Follow #roverling on Instagram for project progress
 
 ![Screenshot_2023-10-24_15-35-30](https://github.com/MarkMakies/Roverling-Mk-II/assets/105891859/2d0717cf-a4fb-4b08-a163-27af71d6e3ab)
 
-## An now stage 5 - writing it all up so others can understand and follow
+## And now stage 5 - writing it all up so others can understand and follow
 
 in progress.....
 
