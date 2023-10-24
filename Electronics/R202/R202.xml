@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mark/Things/CAD/Roverling102/Roverling102.kicad_sch</source>
+    <date>Thu 20 Jul 2023 12:56:17</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Roverling - Steppers' Drive</title>
+        <company/>
+        <rev>1.02</rev>
+        <date>20-07-2023</date>
+        <source>Roverling102.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ed2741-c406-4032-8058-c443797ac0f8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb68f351-812f-4da3-a7fd-445e5e6bfade</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>470u</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fcdc0ee-6446-4637-b6fd-6f229c8ee8f6</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>470uF</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d328f132-a573-42f4-8aa7-de8851d319bb</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0d32b72-deb5-4655-80d4-20833abbcdc3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e271c4c9-24a3-4104-9eee-4fdb1a8dd0b5</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8eecaef-5df8-4cf6-9332-509bb669c3fe</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>470u</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3691d26c-9beb-4e17-aca7-7f269352efda</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95870bdb-d50f-46fc-9279-0c5f02da80ee</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9e00d28-a899-441e-9ead-09a91cf973c1</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f9d3b48-010a-477d-a28a-d3e42ef5c23f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>470uF</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf3227eb-54ab-4b1c-a94f-93507fc9b755</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>47u</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>714e5b79-3178-4792-bda8-e86e6bac97d5</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d15d1f3-fe5a-4e65-87a8-26c67ab42748</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>47u</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7528570a-4fc2-482d-bd49-a6590ce61801</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>10A</value>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3207676b-ec6a-44dd-833c-5c5052625338</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal</value>
+      <libsource lib="Connector" part="Screw_Terminal_01x10" description="Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96304dac-f14d-4f6a-8f10-806c828b96bf</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal</value>
+      <libsource lib="Connector" part="Screw_Terminal_01x10" description="Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ca168c3-1e62-4f0f-999d-bbb2405687da</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>444af21c-c3d4-4580-a6f3-31660448e88e</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03</value>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6050bf20-da5f-46d8-a81e-23e097ac3616</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03</value>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68bb9a10-9c7a-4a66-8a91-6c0516e93fa7</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03</value>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a80e4c7-18c3-465d-9a0c-ac5d38b9d4e4</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03</value>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62d9049f-a286-4ad9-b162-4928be644d06</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03</value>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac476cd9-8c1e-44d4-9c73-f35244c8de3e</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03</value>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d79a4e37-d114-4b2c-8800-8c909025d89d</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>17HDC1031-20B</value>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59822b68-d78a-47af-814e-151375e0e784</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c8e9d1b-8224-469a-96ca-1fac982b5608</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ba3b98f-0efa-41cf-8212-322ab3061806</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2462605b-695a-4cb6-b652-b17bdd8b2943</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4k7</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1850dcce-63c5-4f86-bbaf-dffe06943e99</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0b326ad-2146-4e78-98b8-0333f4a1c0ca</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2300161a-2d0b-42c0-9bea-96baf102728a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4k7</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b80d281-0670-46f3-847d-a26e3983acfe</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4k7</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3be00721-ca89-4100-b02e-60b241c0ddc1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4k7</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f690c552-52c3-4f11-bdcc-930811f23439</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4c256d3-3556-45f1-9a75-8cf3b8daa864</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5439927d-c467-4a03-8708-e4bd06254fa5</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98c33feb-e82a-4e60-947a-569e983f6d9c</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>160k</value>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e44c00f-e5b2-43a0-b666-789bdb1b5f41</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST_LED</value>
+      <libsource lib="Switch" part="SW_SPST_LED" description="Single Pole Single Throw (SPST) switch with LED, generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e41aa4b0-e74c-43a7-ab93-48f42d03ad18</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RP2040-Zero</value>
+      <footprint>RP2040-Zero:RP2040-Zero</footprint>
+      <libsource lib="_MM" part="RP2040-Zero" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c604427a-d79b-4d5d-8fad-9b8cada2ad44</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="" part="Pololu_Breakout_A4988_1" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fe17811-7941-41c8-bfee-e2712375caec</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="" part="Pololu_Breakout_A4988_2" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3516aae-fe0d-419c-90bf-160b8a090359</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="" part="Pololu_Breakout_A4988_3" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3d53688-13a3-417b-809d-afed2a8b9fb6</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>A4988</value>
+      <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
+      <datasheet>https://www.pololu.com/product/2980/pictures</datasheet>
+      <libsource lib="Driver_Motor" part="Pololu_Breakout_A4988" description="Pololu Breakout Board, Stepper Driver A4988"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5f1828f-fc10-4f15-9272-31503e767eb3</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>DFR0568 (2.5~15V to 3.3V 600mA)</value>
+      <footprint>Converter_DCDC:Converter_DCDC_Murata_CRE1xxxxxxDC_THT</footprint>
+      <datasheet>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="CRE1S0505DC" description="5V to 5V 200mA DC-DC Converter with 1kV isolation, DC-package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f168f789-e022-409e-88e1-304dca80c00b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>DFR0569 (3~15V to 5V 600mA)</value>
+      <footprint>Converter_DCDC:Converter_DCDC_Murata_CRE1xxxxxxDC_THT</footprint>
+      <datasheet>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="CRE1S0505DC" description="5V to 5V 200mA DC-DC Converter with 1kV isolation, DC-package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Roverling102.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d77e36d2-bb26-4da0-aea2-6b12e881afd8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Pololu_Breakout_A4988_1">
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <docs>https://www.pololu.com/product/2980/pictures</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">Pololu_Breakout_A4988_1</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2980/pictures</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~{ENABLE}" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="VREF" type="input"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="~{SLEEP}" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Pololu_Breakout_A4988_2">
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <docs>https://www.pololu.com/product/2980/pictures</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">Pololu_Breakout_A4988_2</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2980/pictures</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~{ENABLE}" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="VREF" type="input"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="~{SLEEP}" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Pololu_Breakout_A4988_3">
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <docs>https://www.pololu.com/product/2980/pictures</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">Pololu_Breakout_A4988_3</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2980/pictures</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~{ENABLE}" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="VREF" type="input"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="~{SLEEP}" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x10">
+      <description>Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="Pololu_Breakout_A4988">
+      <description>Pololu Breakout Board, Stepper Driver A4988</description>
+      <docs>https://www.pololu.com/product/2980/pictures</docs>
+      <footprints>
+        <fp>Pololu*Breakout*15.2x20.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">A4988</field>
+        <field name="Footprint">Module:Pololu_Breakout-16_15.2x20.3mm</field>
+        <field name="Datasheet">https://www.pololu.com/product/2980/pictures</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="1B" type="output"/>
+        <pin num="4" name="1A" type="output"/>
+        <pin num="5" name="2A" type="output"/>
+        <pin num="6" name="2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VMOT" type="power_in"/>
+        <pin num="9" name="~{ENABLE}" type="input"/>
+        <pin num="10" name="MS1" type="input"/>
+        <pin num="11" name="MS2" type="input"/>
+        <pin num="12" name="VREF" type="input"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="~{SLEEP}" type="input"/>
+        <pin num="15" name="STEP" type="input"/>
+        <pin num="16" name="DIR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="CRE1S0505DC">
+      <description>5V to 5V 200mA DC-DC Converter with 1kV isolation, DC-package</description>
+      <docs>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*Murata*CRE1xxxxxxDC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CRE1S0505DC</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_Murata_CRE1xxxxxxDC_THT</field>
+        <field name="Datasheet">http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="4" name="+VIN" type="power_in"/>
+        <pin num="5" name="+VOUT" type="power_out"/>
+        <pin num="7" name="-VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST_LED">
+      <description>Single Pole Single Throw (SPST) switch with LED, generic</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST_LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_MM" part="RP2040-Zero">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">RP2040-Zero</field>
+        <field name="Footprint">RP2040-Zero:RP2040-Zero</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="bidirectional"/>
+        <pin num="2" name="GP1" type="bidirectional"/>
+        <pin num="3" name="GP2" type="bidirectional"/>
+        <pin num="4" name="GP3" type="bidirectional"/>
+        <pin num="5" name="GP4" type="bidirectional"/>
+        <pin num="6" name="GP5" type="bidirectional"/>
+        <pin num="7" name="GP6" type="bidirectional"/>
+        <pin num="8" name="GP7" type="bidirectional"/>
+        <pin num="9" name="GP8" type="bidirectional"/>
+        <pin num="10" name="GP9" type="bidirectional"/>
+        <pin num="11" name="GP10" type="bidirectional"/>
+        <pin num="12" name="GP11" type="bidirectional"/>
+        <pin num="13" name="GP12" type="bidirectional"/>
+        <pin num="14" name="GP13" type="bidirectional"/>
+        <pin num="15" name="GP14" type="bidirectional"/>
+        <pin num="16" name="GP15" type="bidirectional"/>
+        <pin num="17" name="GP26" type="bidirectional"/>
+        <pin num="18" name="GP27" type="bidirectional"/>
+        <pin num="19" name="GP28" type="bidirectional"/>
+        <pin num="20" name="GP29" type="bidirectional"/>
+        <pin num="21" name="3V3" type="power_in"/>
+        <pin num="22" name="5V" type="power_in"/>
+        <pin num="23" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>/usr/share/kicad/symbols//Driver_Motor.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/usr/share/kicad/symbols//Motor.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="_MM">
+      <uri>/home/mark/.local/share/kicad/6.0/symbols/MM.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="13" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U4" pin="14" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="13" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="+VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="+VOUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/BL-BLK">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="1B" pintype="output"/>
+    </net>
+    <net code="4" name="/BL-BLU">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="2A" pintype="output"/>
+    </net>
+    <net code="5" name="/BL-DIR">
+      <node ref="U1" pin="7" pinfunction="GP6" pintype="bidirectional"/>
+      <node ref="U4" pin="16" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="6" name="/BL-EN">
+      <node ref="U1" pin="9" pinfunction="GP8" pintype="bidirectional"/>
+      <node ref="U4" pin="9" pinfunction="~{ENABLE}" pintype="input"/>
+    </net>
+    <net code="7" name="/BL-GRN">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="1A" pintype="output"/>
+    </net>
+    <net code="8" name="/BL-RED">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="2B" pintype="output"/>
+    </net>
+    <net code="9" name="/BL-STEP">
+      <node ref="U1" pin="8" pinfunction="GP7" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="10" name="/BLK">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="11" name="/BLU">
+      <node ref="M1" pin="4" pintype="passive"/>
+    </net>
+    <net code="12" name="/BR-BLK">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="1B" pintype="output"/>
+    </net>
+    <net code="13" name="/BR-BLU">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="2A" pintype="output"/>
+    </net>
+    <net code="14" name="/BR-DIR">
+      <node ref="U1" pin="1" pinfunction="GP0" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="15" name="/BR-EN">
+      <node ref="U1" pin="3" pinfunction="GP2" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="~{ENABLE}" pintype="input"/>
+    </net>
+    <net code="16" name="/BR-GRN">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="1A" pintype="output"/>
+    </net>
+    <net code="17" name="/BR-RED">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="2B" pintype="output"/>
+    </net>
+    <net code="18" name="/BR-STEP">
+      <node ref="U1" pin="2" pinfunction="GP1" pintype="bidirectional"/>
+      <node ref="U2" pin="15" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="19" name="/CH1pwm">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="GP27" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/CH2pwm">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GP13" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/CH3pwm">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GP14" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/CH4pwm">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GP28" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/CH5pwm">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GP15" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/CH6pwm">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GP26" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/FL-BLK">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="1B" pintype="output"/>
+    </net>
+    <net code="26" name="/FL-BLU">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="2A" pintype="output"/>
+    </net>
+    <net code="27" name="/FL-DIR">
+      <node ref="U1" pin="10" pinfunction="GP9" pintype="bidirectional"/>
+      <node ref="U5" pin="16" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="28" name="/FL-EN">
+      <node ref="U1" pin="12" pinfunction="GP11" pintype="bidirectional"/>
+      <node ref="U5" pin="9" pinfunction="~{ENABLE}" pintype="input"/>
+    </net>
+    <net code="29" name="/FL-GRN">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="1A" pintype="output"/>
+    </net>
+    <net code="30" name="/FL-RED">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="2B" pintype="output"/>
+    </net>
+    <net code="31" name="/FL-STEP">
+      <node ref="U1" pin="11" pinfunction="GP10" pintype="bidirectional"/>
+      <node ref="U5" pin="15" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="32" name="/FR-BLK">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="1B" pintype="output"/>
+    </net>
+    <net code="33" name="/FR-BLU">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="2A" pintype="output"/>
+    </net>
+    <net code="34" name="/FR-DIR">
+      <node ref="U1" pin="4" pinfunction="GP3" pintype="bidirectional"/>
+      <node ref="U3" pin="16" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="35" name="/FR-EN">
+      <node ref="U1" pin="6" pinfunction="GP5" pintype="bidirectional"/>
+      <node ref="U3" pin="9" pinfunction="~{ENABLE}" pintype="input"/>
+    </net>
+    <net code="36" name="/FR-GRN">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="1A" pintype="output"/>
+    </net>
+    <net code="37" name="/FR-RED">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="2B" pintype="output"/>
+    </net>
+    <net code="38" name="/FR-STEP">
+      <node ref="U1" pin="5" pinfunction="GP4" pintype="bidirectional"/>
+      <node ref="U3" pin="15" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="39" name="/GRN">
+      <node ref="M1" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/RED">
+      <node ref="M1" pin="3" pintype="passive"/>
+    </net>
+    <net code="41" name="/VBB">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VMOT" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VMOT" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="VMOT" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VMOT" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="+VIN" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="+VIN" pintype="power_in"/>
+    </net>
+    <net code="42" name="/VREF">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VREF" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="VREF" pintype="input"/>
+      <node ref="U4" pin="12" pinfunction="VREF" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="VREF" pintype="input"/>
+    </net>
+    <net code="43" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="MS1" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="MS2" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="MS1" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="MS2" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="MS1" pintype="input"/>
+      <node ref="U4" pin="11" pinfunction="MS2" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="MS1" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="MS2" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="-VIN" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="-VOUT" pintype="power_out"/>
+      <node ref="U7" pin="1" pinfunction="-VIN" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="-VOUT" pintype="power_out"/>
+    </net>
+    <net code="44" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GP12" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(J8-Pad2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(J9-Pad2)">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="GP29" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="5V" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
