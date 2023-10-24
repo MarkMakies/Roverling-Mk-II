@@ -1,6 +1,6 @@
 ## Roverling Mk II
 # A cheap multipurpose mobile robotic platform for research, development, education and fun
-Follow #Roverling on Instagram for project progress.  All design files, schematics & code for free.
+Follow #Roverling on Instagram for project progress.   All design files, schematics & code available here once complete.
 
 ### STAGE 1 - Mecha Design July 2023
 
