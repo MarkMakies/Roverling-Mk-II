@@ -27,3 +27,35 @@ Follow #Roverling on Instagram for project progress.   All design files, schemat
 in progress.....
 
 
+# Why did I start this project:   
+
+A few months back I created a basic mobile platform using parts from an old 3D printer.  It was fun but not very practical.
+
+I designed Roverling Mark II so I could experiment with a practical, configurable and reliable  mobile platform.  Hopefully one day getting it to do some useful stuff around our bush block, like
+
+      - Searching paddocks for weeds and recording locations.
+      - Navigating down a 200m drive to check if the gate is closed.
+      - Navigating up the drive 50m to check that the machine shed roller doors are secure.
+      - Recording animal sightings on the block.  We’d see up to 50 roos per day on our block.
+      - It would be good to identify and scare deer away from our olive grove.
+      - And a friend already wants to mount a metal detector and do automatic scanning of a large area.
+
+Anyway, to that end, here is the complete design and everything you need to know to make your own or any variation.  As much as possible I’ve kept the cost down to a minimum, reused some older parts and printed as much as possible.
+
+
+This is a current work in progress.  At some stage I needed to draw the line and write something up before it gets too big.  So these are the current working and operational specifications
+
+    
+     - 440 mm long x 350 mm wide, 250 mm max height, 200 mm nominal platform height
+     - 3.5 kg without battery, uses an 18V power tool battery
+     - Up to 22 satellite GNSS receiver, augmentation using SBAS, 1Hz updates
+     - IMU: 3x accel, 3x gyro, magnetometer, pressure
+     - 2.4Ghz 6 channel RC receiver and decoder, with diverse receiver
+     - 2 channel motor quadrature decoders 
+     - 2 channel motor current sensors (effectively torque sensors)
+     - Sonar, ranger
+     - 915 Mhz LoRa module.  Comms at 1800 bps,  64 byte telemetry packet, 16 byte command packet, encrypted, super reliable
+      LoRa base station, which is effectively my MQTT gateway for telemetry and commands back
+     - Mapping module runs on desktop from MQTT feed to produce realtime tracking info overlaid on an image (for me an old NearMap screenshot).
+      On board RPi 4B w/ 4G running the latest OS with a camera 3 module.  
+
