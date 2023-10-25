@@ -1,0 +1,18 @@
+24/10/2023
+CAPTURE
+libcamera-vid --codec h264 --nopreview --inline --width 1280 --height 720 --rotation 180  --framerate 30 -t 0 -o test.h264
+ffplay test.h264
+
+CONVERT
+ffmpeg -framerate 15 -i test2cam.h264 -c copy test2cam.mp4
+
+STREAM TCP
+libcamera-vid --codec h264 --nopreview --inline --width 1920 --height 1080 --rotation 180  --framerate 30 --listen -t 0 -o tcp://0.0.0.0:10001
+ffplay tcp://192.168.2.20:10001 -fflags nobuffer -flags low_delay -framedrop
+
+STREAM UDP
+libcamera-vid --codec h264 --nopreview --inline --width 1920 --height 1080 --rotation 180  --framerate 30 -t 0 -o udp://192.168.2.1:10001
+ffplay udp://:10001 -fflags nobuffer -flags low_delay -framedrop
+
+
+
