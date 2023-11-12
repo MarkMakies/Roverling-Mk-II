@@ -6,8 +6,8 @@
 
   (title_block
     (title "Roverling MK II Controller")
-    (date "2023-09-21")
-    (rev "2.02")
+    (date "2023-11-12")
+    (rev "2.03")
   )
 
   (lib_symbols
@@ -3821,7 +3821,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7d0691a0-cdaa-4cc0-a730-5d9129e6b82e)
   )
-  (wire (pts (xy 228.6 7.62) (xy 267.97 7.62))
+  (wire (pts (xy 228.6 7.62) (xy 271.78 7.62))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7d79413c-40a3-4839-8a5f-cf6a55589a9a)
   )
@@ -4141,6 +4141,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b716886c-5974-4b0b-9404-88c72313ca97)
   )
+  (wire (pts (xy 271.78 7.62) (xy 271.78 11.43))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b84cd507-81d3-4b97-84f4-ffd2f1f1857e)
+  )
   (wire (pts (xy 172.72 10.16) (xy 172.72 12.7))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b902086a-11ba-4633-ac0f-19f48f8857d7)
@@ -4208,10 +4212,6 @@
   (wire (pts (xy 195.58 12.7) (xy 195.58 15.24))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c3780790-a0d8-4af7-b9db-ab3d4fbf71a2)
-  )
-  (wire (pts (xy 267.97 11.43) (xy 267.97 7.62))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c385f2f0-0a01-4c86-a91d-6512a7b68e02)
   )
   (wire (pts (xy 33.02 68.58) (xy 33.02 73.66))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -6065,8 +6065,8 @@
     (property "Datasheet" "~" (id 3) (at 237.49 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 61620802-42b7-4ffb-9382-efc4808f3f8e))
-    (pin "" (uuid 61620802-42b7-4ffb-9382-efc4808f3f8e))
+    (pin "" (uuid 61620802-42b7-4ffb-9382-efc4808f3f90))
+    (pin "" (uuid 61620802-42b7-4ffb-9382-efc4808f3f90))
   )
 
   (symbol (lib_id "_MM:RP2040-Zero") (at 212.09 71.12 0) (unit 1)
