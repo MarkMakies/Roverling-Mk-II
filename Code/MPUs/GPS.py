@@ -34,18 +34,22 @@ def ReadGPS():
             if CheckPacket(ss):
                 if ss.find('$GNGGA') == 0:  #maybe for GPGGA as well?
                     try:
-                        Gutc = (ss.split(',')[1])           
+                        Gutc = (ss.split(',')[1])     
+                        dataGPS[0] = Gutc
+
                         s = ss.split(',')[2]
                         Glattide = float(s[2:9])/60
-                        s = ss.split(',')[4]
 
+                        s = ss.split(',')[4]
                         Glongitude = float(s[3:10])/60
+
                         Gquality = int(ss.split(',')[6])
                         Gnumstats = int(ss.split(',')[7])
                         Gaccuracy = float(ss.split(',')[8])
                         Galtitude = float(ss.split(',')[9])
                     except:
-                        print('ERROR data conversion error (GPS)')
+                        #print('ERROR data conversion error (GPS)', ss)
+                        pass # usually means no satellite fix yet 
                     else:
                         dataGPS[0] = Gutc
                         dataGPS[1] = Glattide

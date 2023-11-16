@@ -13,6 +13,7 @@ from GPS import ReadGPS, dataGPS
 from IMU import ReadIMU, dataIMU
 from Packets import AssemPkt_T, DisAssemPkt_T, AssemPkt_C, DisAssemPkt_C
 from Comms import RecvTelemetry, dataMOT, SendCommand
+import PIO_UART
 
 Tuart = UART(1, baudrate=1_000_000, tx=Pin(4), rx=Pin(5))
 
@@ -98,8 +99,9 @@ VBatList = [0] * 9
 Vbat = ADC(Pin(29))
 def GetVbat():
     global VbatList
-    VbatCoeff = 3050                        # through testing
-    V = Vbat.read_u16() / VbatCoeff / 5     # 5 cells, nom 18V
+    VbatCoeff = 1170                        # through testing
+    V = Vbat.read_u16() / VbatCoeff /10     #  10 cells, nom 36V
+    #print(V)
     if   V >= 4.20:   cap = 100
     elif V >= 4.15:   cap = 95
     elif V >= 4.11:   cap = 90
@@ -188,6 +190,8 @@ while True:
             vals,ss = DisAssemPkt_C(NewCmdPkt)
             SendCommand(Tuart, ss)
 
+            #PIO_UART.WriteLine('Commands' + ss + '\n')  
+
     if (Scheduler - 50) % 100 == 0:          #100ms 0ms offset
         LEDupdate('GreenSolid')
 
@@ -200,7 +204,7 @@ while True:
         #print(dataIMU[6],dataIMU[7],dataIMU[8])
 
 
-    if (Scheduler - 30) % 1000 == 0:      
+    if (Scheduler - 30) % 100 == 0:      
         collect()
 
     if (Scheduler - 40) % 500 == 0:  
@@ -211,3 +215,8 @@ while True:
             sx.send(x)      
         except:
             print('Send failed')
+
+        PIO_UART.WriteLine('GPS Time ' + str(dataGPS[0]) + '\n')
+
+        #x = PIO_UART.ReadLine()
+        #print(x)
