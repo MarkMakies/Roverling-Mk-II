@@ -1,6 +1,12 @@
 ## Roverling Mk II
 # A cheap multipurpose mobile robotic platform for research, development, education and fun
-All design files, schematics & code available here.  Build tutorial [here](https://makies.com.au/roverlingmkii/).
+All design files, schematics & code available in this repository.  
+
+Build tutorial [here](https://makies.com.au/roverlingmkii/).
+
+**2025 Update:** Started working on an updated version to support my autonomous metal detector project.  Documenting progress on Hackaday.io.  
+
+---
 
 ### STAGE 1 - Mecha Design July 2023
 
