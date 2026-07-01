@@ -71,3 +71,4 @@ The schematic is done with KiCAD.  I used mixed prototyping methods and no PCB h
 
 All the code is in python.  I’ve pretty much written my own drivers for all of the low level stuff except the sx1262 suite for LoRa and MQTT.  I’ve tried to document as much as possible.  
 
+*More projects: https://makies.au*
